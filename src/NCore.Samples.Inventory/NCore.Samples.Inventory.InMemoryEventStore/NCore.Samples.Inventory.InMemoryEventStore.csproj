@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="EventStore.Client.Embedded" Version="20.6.0" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	  <PackageReference Include="NCore.Infra.EventStore" Version="2021.11.22.5" />
+	  <PackageReference Include="NCore.Infra.EventStore.Abstractions" Version="2021.11.22.5" />
+  </ItemGroup>
+
+</Project>
